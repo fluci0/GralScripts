@@ -83,7 +83,7 @@ for j in range(n):
 #Plot
 fig1 = plt.figure(figsize = [size, size])
 ax = fig1.add_subplot(111)
-ax.set_title('atan2 function', fontdict = font)
+ax.set_title('Line intersecting and obstacle', fontdict = font)
 ax.set_xlabel('x', fontdict = font)
 ax.set_ylabel('y', fontdict = font)
 ax.scatter(q_sx, q_sy, label =' Start', c = 'g', alpha = alp)
